@@ -147,78 +147,85 @@ section article .colum {
     margin: 50px 5%;
 }
 
-/* HOME Section */
-#home article {
+/* ahome Section */
+#ahome article {
     min-height:100vh;
     color: #fff;
-    transition: background ease 10s;
+    background: rgba(0,100,0,.3);
+    transition: background ease 5s;
 }
 
-#home article:hover {
+#ahome article:hover {
     background: rgba(0,100,0,.7);
 }
 
-#home article h1 {
+#ahome article h1 {
     padding-top: 45vh;
 }
 
 /* LATEST Section */
-#ultimas article {
+#aultimas article {
     min-height: 100vh;
     color: #fff;
-    transition: background ease 10s;
+    background: rgba(0,50,175,.3);
+    transition: background ease 5s;
 }
-#ultimas article:hover {
+#aultimas article:hover {
     background: rgba(0,50,175,.7);
 }
 
 /* AREAS Section */
-#areas article {
+#aareas article {
     min-height: 100vh;
     color: #fff;    
-    transition: background ease 10s;
+    background: rgba(200,0,0,.3);
+    transition: background ease 5s;
 }
-#areas article:hover {
+#aareas article:hover {
     background: rgba(200,0,0,.7);
 }
 
 /* AREAS Section */
-#actividades article {
+#aactividades article {
     min-height: 100vh;
     color: #fff;
-    transition: background ease 10s;
+    background: rgba(0,255,200,.3);
+    transition: background ease 5s;
 }
-#actividades article:hover {
+#aactividades article:hover {
     background: rgba(0,255,200,.7);
 }
 
 /* FESTAS Section */
-#festas article {
-    transition: background ease 10s;
+#afestas article {
     min-height: 100vh;
     color: #fff;
+    background: rgba(255,100,0,.3);
+    transition: background ease 5s;
 }
-#festas article:hover {
-    background: rgba(255,155,0,.7);
+#afestas article:hover {
+    background: rgba(255,100,0,.7);
 }
 
 /* PROJECTOS Section */
-#projectos article {
+#aprojectos article {
     min-height: 100vh;
     color: #fff;
-    transition: background ease 10s;
+    background: rgba(255,0,155,.3);
+    transition: background ease 5s;
 }
-#projectos article:hover {
-    background: rgba(255,0,155,.6);
+#aprojectos article:hover {
+    background: rgba(255,0,155,.7);
 }
 
 /* CONTATOS Section */
-#contactos article {
-    min-height: 100vh;
+#acontactos article {
+    min-height: 80vh;
     color: #fff;
-    transition: background ease 10s;
+    background: rgba(155,255,0,.3);
+    transition: background ease 5s;
 }
-#contactos article:hover {
+#acontactos article:hover {
     background: rgba(155,255,0,.6);
 }
 
@@ -237,14 +244,13 @@ section article .colum {
     margin: .25% .25%;
     border: 1px solid #fff;
     float: left;
-    background: rgba(0,0,0,.1);
-    transition: background-color ease-in-out 1s;
+    transition: border-color ease-in-out 1s;
 }
 .summaries .summary:nth-child(odd):hover {
-    background-color: rgba(255,0,0,.5);
+    border-color: rgba(255,0,0,.5);
 }
 .summaries .summary:hover {
-    background-color: rgba(255,255,0,.5);
+    border-color: rgba(255,255,0,.5);
 }
 
 .summaries figure figcaption {
