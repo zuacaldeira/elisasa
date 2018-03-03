@@ -267,20 +267,22 @@ section article .colum {
 }
 
 .summaries .summary {
-    width: 41%;
+    width: 31%;
     height: 35vh;
-    margin: 1%;
-    border: 1em solid #fff;
+    margin-right: 3.5%;
+    margin-bottom: 3%;
+    border-radius: 5px;
     float: left;
     background: rgba(255,255,255,.2);
     color: #777;
-    transition: border-color ease-in-out 1s;
+    transition: background ease-in-out 1.5s, box-shadow ease-in-out 1.5s;
 }
-.summaries .summary:nth-child(odd):hover {
-    border-color: rgba(255,0,0,.5);
+.summaries .summary:nth-child(3n+0) {
+    margin-right: 0;
 }
 .summaries .summary:hover {
-    border-color: rgba(255,255,0,.5);
+    background: rgba(255,255,255,1);
+    box-shadow: 0px -1px 4px 1px rgba(255,255,200,.75);
 }
 
 .summaries figure figcaption {
