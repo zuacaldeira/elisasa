@@ -313,13 +313,9 @@ section article h2 {
 .summaries figure figcaption {
     width: 100%;
     text-align: center;
-    transition: font-size ease-in-out 1s;
     overflow: hidden;
 }
 
-.summaries figure figcaption:hover {
-    font-size: 1.8em;
-}
 
 /*footer*/
 
