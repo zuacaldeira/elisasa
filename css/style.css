@@ -147,11 +147,12 @@ section article .colum {
 
 /* ahome Section */
 #ahome {
-    background: url(http://source.unsplash.com/random?pencil) no-repeat center center fixed;
+    background: url(../images/home.jpg) no-repeat center center fixed;
     background-size: cover;    
 }
 #ahome article {
-    min-height:100vh;
+    padding-top: 5vh;
+    min-height:95vh;
     color: #fff;
     background: rgba(0,0,0,.5);
     transition: background ease 5s, color ease 5s;
@@ -162,7 +163,16 @@ section article .colum {
 }
 
 #ahome article h1 {
-    padding-top: 45vh;
+    position: absolute;
+    padding: 1em;
+    top: 47vh;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#ahome article:hover h1 {
+    background: rgba(0,0,0,.1);
 }
 
 /* LATEST Section */
@@ -267,10 +277,10 @@ section article .colum {
 }
 
 .summaries .summary {
-    width: 31%;
+    width: 33%;
     height: 35vh;
-    margin-right: 3.5%;
-    margin-bottom: 3%;
+    margin-right: .5%;
+    margin-bottom: .5%;
     border-radius: 5px;
     float: left;
     background: rgba(255,255,255,.2);
@@ -282,7 +292,6 @@ section article .colum {
 }
 .summaries .summary:hover {
     background: rgba(255,255,255,1);
-    box-shadow: 0px -1px 4px 1px rgba(255,255,200,.75);
 }
 
 .summaries figure figcaption {
